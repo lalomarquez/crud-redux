@@ -5,7 +5,7 @@ import App from './component/App'
 import registerServiceWorker from './registerServiceWorker'
 import { createStore, applyMiddleware } from 'redux' //compose
 import { Provider } from 'react-redux'
-import postReducer from './reducers/postReducer'
+import postReducer from './reducers'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
 //Redux Dev Tools
