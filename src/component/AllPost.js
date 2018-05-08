@@ -7,7 +7,8 @@ class AllPost extends React.Component {
     render() {
         return (
             <div>
-                <h1>All Posts</h1>
+                <h1 className="post_heading">All Posts</h1>
+
                 <div>
                     {this.props.posts.map((post) => (
                         <div key={post.id}>
@@ -17,6 +18,7 @@ class AllPost extends React.Component {
                         </div>
                     ))}
                 </div>
+
             </div>
         )
     }

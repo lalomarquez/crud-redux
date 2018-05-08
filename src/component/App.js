@@ -9,15 +9,17 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+
+        <header className="navbar">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h2 className="App-title">CRUD redux [Post It]</h2>
         </header>
-        <p className="App-intro">hello</p>
+
         <div>
           <PostForm />
           <AllPost />
         </div>
+
       </div>
     )
   }
